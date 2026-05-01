@@ -44,19 +44,12 @@ The application addresses the core challenges faced by freelancers in invoice ma
 
 ## Application Screenshots
 
-<p align="center">
-  <img src="screenshots/1.png" width="250" alt="Main Dashboard" />
-  <img src="screenshots/2.png" width="250" alt="Invoice Details" />
-  <img src="screenshots/3.png" width="250" alt="AI Interface" />
-</p>
+![Main Dashboard](./screenshots/1.png)
+![Invoice Details](./screenshots/2.png)
+![AI Interface](./screenshots/3.png)
 
 ### Feature Highlights
-<p align="center">
-  <img src="screenshots/4.png" width="180" />
-  <img src="screenshots/5.png" width="180" />
-  <img src="screenshots/6.png" width="180" />
-  <img src="screenshots/7.png" width="180" />
-</p>
+![4](./screenshots/4.png) ![5](./screenshots/5.png) ![6](./screenshots/6.png) ![7](./screenshots/7.png)
 
 ---
 

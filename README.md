@@ -7,28 +7,28 @@ AI-Powered Financial Management & Invoice Automation System.
 
 ---
 
-## 📝 Project Overview
+##  Project Overview
 Monjez Fin is an innovative application designed to streamline financial operations for independent professionals and small businesses. The platform stands out for its unique ability to transform voice commands into fully-detailed invoices using advanced AI, significantly reducing the time and effort required for manual data entry.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### 🎙 AI Voice Invoicing
 - **Intelligent Speech Analysis:** Automatically extracts key data (Name, Amount, Service Type, Date, Phone, and Notes) from a single natural sentence.
 - **Hybrid Engine:** Combines Google Gemini for deep cloud analysis with a custom local NLP engine for high-speed processing.
 - **Arabic Dialect Support:** Advanced processing for various Arabic dialects and eastern Arabic numerals to ensure high accuracy.
 
-### 💳 Real-time Payment Tracking
+###  Real-time Payment Tracking
 - **Web Payment Gateway:** Generates a dedicated payment link for each invoice that can be shared with clients for seamless web payments.
 - **Live Synchronization:** Instantly updates payment status within the app via Firebase Realtime Database.
 - **Auditory Alerts:** Triggers a "Payment Successful" voice confirmation as soon as funds are received.
 
-### 🔐 Security & Privacy
+###  Security & Privacy
 - **Biometric Authentication:** Secure access to financial data using fingerprint and biometric validation.
 - **Cloud Resilience:** All invoices and financial records are securely backed up and synchronized via Firebase infrastructure.
 
-### 📊 Advanced Analytics
+### Advanced Analytics
 - **Comprehensive Reporting:** Detailed statistics for all invoices and client interactions.
 - **Client Insights:** Tracks and categorizes client relationships, distinguishing between frequent (loyal) clients and rare (occasional) ones to help freelancers monitor business growth.
 - **Interactive Dashboard:** Visualizes total balance, income, and expenses through interactive charts (Pie & Line Charts).
@@ -44,7 +44,7 @@ Monjez Fin is an innovative application designed to streamline financial operati
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repository:**
    ```bash
@@ -62,12 +62,12 @@ Monjez Fin is an innovative application designed to streamline financial operati
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 *(Application interface screenshots can be added here later)*
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 If you would like to contribute to the development of this project, we welcome your suggestions via Pull Requests!
 
 ---

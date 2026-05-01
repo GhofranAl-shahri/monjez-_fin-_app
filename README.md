@@ -10,9 +10,9 @@ The application addresses the core challenges faced by freelancers in invoice ma
 ## Core Features
 
 ### AI-Driven Voice Invoicing
-- **Natural Language Processing:** Intelligent extraction of client names, amounts, service types, dates, and contact information from a single voice command.
-- **Hybrid Architecture:** Utilizes a high-performance system combining Google Gemini for deep semantic analysis and a local NLP engine for offline reliability.
-- **Arabic Language Optimization:** Advanced processing for various Arabic dialects and numeral systems to ensure high accuracy in data capture.
+- **Cloud-Powered Intelligence:** Leverages advanced online processing (Google Gemini) to transform voice commands into structured invoice data with high precision.
+- **Natural Language Processing:** Intelligent extraction of client names, amounts, service types, and contact information from a single voice command.
+- **Arabic Language Optimization:** Advanced processing for various Arabic dialects to ensure high accuracy in data capture.
 
 ### Automatic Real-time Payment Tracking
 - **Instant Synchronization:** The system automatically updates the status of invoices in real-time as soon as a payment is confirmed via the integrated web payment gateway.
@@ -23,8 +23,9 @@ The application addresses the core challenges faced by freelancers in invoice ma
 - **Biometric Authentication:** Secure access to financial records via fingerprint and biometric validation.
 - **Cloud-Based Resilience:** All financial data and invoice records are securely synchronized and backed up using Firebase infrastructure.
 
-### Financial Analytics
-- **Executive Dashboard:** Comprehensive visualization of total balance, income, and expenditures through interactive charts and analytics modules.
+### Comprehensive Financial Analytics
+- **Full Client Tracking:** Advanced analytics that monitor all client interactions, categorizing both frequent and occasional (rare) clients to help freelancers understand their business growth.
+- **Invoice Management:** Detailed reporting for all invoices, providing insights into total revenue, outstanding balances, and expenditure through interactive visual charts.
 
 ---
 

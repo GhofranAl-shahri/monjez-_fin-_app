@@ -1,5 +1,9 @@
 # Monjez Fin: AI-Powered Financial Management Suite
 
+<p align="center">
+  <img src="assets/logo.jpg" width="150" alt="Monjez Fin Logo" />
+</p>
+
 Monjez Fin is a professional financial management application specifically designed to empower freelancers and small business owners. The platform streamlines financial workflows through advanced AI integration and real-time automation.
 
 ## Project Overview
@@ -38,6 +42,16 @@ The application addresses the core challenges faced by freelancers in invoice ma
 
 ---
 
+## Application Screenshots
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="250" alt="Main Dashboard" />
+  <img src="screenshots/voice_ui.png" width="250" alt="AI Voice Interface" />
+  <img src="screenshots/analytics.png" width="250" alt="Financial Analytics" />
+</p>
+
+---
+
 ## Getting Started
 
 1. **Clone the Repository:**
@@ -53,11 +67,6 @@ The application addresses the core challenges faced by freelancers in invoice ma
    ```bash
    flutter run
    ```
-
----
-
-## Application Screenshots
-*(Include high-resolution interface screenshots here)*
 
 ---
 

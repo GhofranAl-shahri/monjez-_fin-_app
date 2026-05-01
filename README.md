@@ -1,88 +1,71 @@
 # Monjez Fin: AI-Powered Financial Management Suite
 
 <p align="center">
-  <img src="assets/logo.jpg" width="150" alt="Monjez Fin Logo" />
+  <img src="assets/logo.jpg" width="180" alt="Monjez Fin Logo" />
 </p>
 
-Monjez Fin is a professional financial management application specifically designed to empower freelancers and small business owners. The platform streamlines financial workflows through advanced AI integration and real-time automation.
-
-## Project Overview
-The application addresses the core challenges faced by freelancers in invoice management and payment tracking. By leveraging cutting-edge Artificial Intelligence, Monjez Fin allows users to generate comprehensive invoices via voice commands, significantly reducing manual data entry and improving operational efficiency.
+**Monjez Fin** is a sophisticated financial management ecosystem engineered specifically for freelancers and independent professionals. By merging cutting-edge **Generative AI** with real-time automation, it transforms how financial workflows are handled—from voice-to-invoice creation to automated payment reconciliation.
 
 ---
 
-## Core Features
+## 🌟 Key Innovation: AI Voice-to-Invoice
+The core of Monjez Fin is its intelligent listening engine. Users can simply speak a natural command in Arabic (even in local dialects), and the system extracts structured data with surgical precision.
 
-### AI-Driven Voice Invoicing
-- **Cloud-Powered Intelligence:** Leverages advanced online processing (Google Gemini) to transform voice commands into structured invoice data with high precision.
-- **Natural Language Processing:** Intelligent extraction of client names, amounts, service types, and contact information from a single voice command.
-- **Arabic Language Optimization:** Advanced processing for various Arabic dialects to ensure high accuracy in data capture.
-
-### Automatic Real-time Payment Tracking
-- **Instant Synchronization:** The system automatically updates the status of invoices in real-time as soon as a payment is confirmed via the integrated web payment gateway.
-- **Automated Workflow:** Invoices are dynamically transitioned to the "Paid" status upon transaction completion, triggered via Firebase Realtime Database.
-- **Immediate Notifications:** Users receive instant system alerts and auditory confirmation upon successful receipt of payments.
-
-### Security and Data Integrity
-- **Biometric Authentication:** Secure access to financial records via fingerprint and biometric validation.
-- **Cloud-Based Resilience:** All financial data and invoice records are securely synchronized and backed up using Firebase infrastructure.
-
-### Comprehensive Financial Analytics
-- **Full Client Tracking:** Advanced analytics that monitor all client interactions, categorizing both frequent and occasional (rare) clients to help freelancers understand their business growth.
-- **Invoice Management:** Detailed reporting for all invoices, providing insights into total revenue, outstanding balances, and expenditure through interactive visual charts.
-
----
-
-## Technology Stack
-- **Framework:** Flutter (Dart)
-- **Backend Services:** Firebase (Authentication, Realtime Database, Hosting)
-- **Artificial Intelligence:** Google Generative AI (Gemini 2.0 Flash) & Custom Local NLP
-- **Notification Systems:** Awesome Notifications & Flutter Local Notifications
-- **Document Services:** PDF Generation & Printing Integration
-
----
-
-## Application Screenshots
-
-| Main Dashboard | Invoice Details | AI Interface |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/1.png" width="250"> | <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/2.png" width="250"> | <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/3.png" width="250"> |
-
-### Feature Highlights
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/4.png" width="180">
-  <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/5.png" width="180">
-  <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/6.png" width="180">
-  <img src="https://raw.githubusercontent.com/GhofranAl-shahri/monjez-_fin-_app/master/screenshots/7.png" width="180">
+  <img src="screenshots/Quick%20Actions%20%20Bottom%20Sheet.png" width="250" />
+  <img src="screenshots/Add%20New%20Invoice%20Screen.png" width="250" />
 </p>
 
----
-
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/GhofranAl-shahri/monjez-_fin-_app.git
-   ```
-2. **Install Dependencies:**
-   ```bash
-   flutter pub get
-   ```
-3. **Configuration:** Ensure the `google-services.json` file is correctly placed in the `android/app` directory.
-4. **Execution:**
-   ```bash
-   flutter run
-   ```
+*   **Smart Extraction:** Captures Name, Service, Amount, and Phone Number from a single sentence.
+*   **Hybrid NLP:** Uses Google Gemini 2.0 Flash for cloud intelligence and custom Regex for offline fallback.
 
 ---
 
-## Contributors
-This project was developed with dedication by:
-- Ghofran Al-shehari
-- Rehab Sabr
-- Sondos Alkenai
-- Areej Aljofi
+## 🚀 Application Workflow
+
+### 1. Secure Onboarding
+Professional entry point featuring smooth animations and biometric-ready authentication to ensure data privacy.
+
+<p align="center">
+  <img src="screenshots/Splash%20Screen.png" width="220" />
+  <img src="screenshots/Login%20Screen.png" width="220" />
+  <img src="screenshots/Privacy%20&%20Security%20Screen.png" width="220" />
+</p>
+
+### 2. Intelligent Dashboard & Analytics
+A comprehensive control center that provides a 360-degree view of your financial health.
+
+<p align="center">
+  <img src="screenshots/Home%20%20Dashboard%20Screen.png" width="250" />
+  <img src="screenshots/Financial%20Statistics%20Screen.png" width="250" />
+  <img src="screenshots/Total%20Income%20Analytics%20Screen.png" width="250" />
+</p>
+
+### 3. Automated Payment Cycle
+Invoices are not just generated; they are tracked in real-time. Status updates are automated via Firebase Realtime Database.
+
+| Payment Details | Success Confirmation | Notification Alerts |
+|:---:|:---:|:---:|
+| <img src="screenshots/Payment%20Gateway%20-%20Details%20Screen.png" width="200"> | <img src="screenshots/Payment%20Success%20Screen.png" width="200"> | <img src="screenshots/Payment%20Confirmation%20Notifications.png" width="200"> |
 
 ---
 
-**Developed by the Monjez Fin Team**
+## 🛠️ Technology Stack
+*   **Frontend:** Flutter & Dart (Cross-platform excellence)
+*   **Backend:** Firebase (Authentication, Realtime Database, Hosting)
+*   **AI Engine:** Google Generative AI (Gemini) & Custom Local NLP
+*   **Automation:** Awesome Notifications & Cloud Functions
+*   **Business Logic:** PDF Generation, QR Code Integration, and Real-time Status Sync
+
+---
+
+## 👥 Meet the Team
+This project is the result of a collaborative effort by a group of passionate developers:
+*   **Ghofran Al-shehari**
+*   **Rehab Sabr**
+*   **Sondos Alkenai**
+*   **Areej Aljofi**
+
+---
+
+**Developed with ❤️ by the Monjez Fin Team**

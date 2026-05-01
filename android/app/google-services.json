@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "535053027312",
+    "firebase_url": "https://flutter-ai-playground-8da85-default-rtdb.firebaseio.com",
+    "project_id": "flutter-ai-playground-8da85",
+    "storage_bucket": "flutter-ai-playground-8da85.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535053027312:android:48f1dacb4b7ef584bf7f35",
+        "android_client_info": {
+          "package_name": "com.example.monjes_app4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_e7OF4H5inwU9XUioNCsQ729Kp4mJT6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

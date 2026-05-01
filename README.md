@@ -1,73 +1,72 @@
-# 🚀 منجز مالي | Monjez Fin 💎
-**نظام إدارة مالية ذكي مدعوم بالذكاء الاصطناعي وأتمتة الفواتير.**
+# Monjez Fin: AI-Powered Financial Management Suite
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
-[![AI](https://img.shields.io/badge/AI-Gemini-blue?style=for-the-badge&logo=google-gemini&logoColor=white)](https://deepmind.google/technologies/gemini/)
+Monjez Fin is a professional financial management application specifically designed to empower freelancers and small business owners. The platform streamlines financial workflows through advanced AI integration and real-time automation.
 
----
-
-## 📝 نبذة عن المشروع
-**منجز مالي** هو تطبيق مبتكر مصمم خصيصاً لتمكين **المستقلين (Freelancers)** وأصحاب المشاريع الصغيرة من إدارة شؤونهم المالية بذكاء. يتميز التطبيق بقدرته الفريدة على تحويل الأوامر الصوتية إلى فواتير احترافية، بالإضافة إلى نظام **مزامنة تلقائي ولحظي** يضمن تحديث حالة المدفوعات فور إتمامها من قبل العميل.
+## Project Overview
+The application addresses the core challenges faced by freelancers in invoice management and payment tracking. By leveraging cutting-edge Artificial Intelligence, Monjez Fin allows users to generate comprehensive invoices via voice commands, significantly reducing manual data entry and improving operational efficiency.
 
 ---
 
-## ✨ الميزات الرئيسية (Key Features)
+## Core Features
 
-### 🎙️ الذكاء الاصطناعي والفوترة الصوتية (AI Voice Invoicing)
-- **تحليل الكلام الذكي:** استخراج (الاسم، المبلغ، نوع الخدمة، التاريخ، الهاتف، والملاحظات) من جملة واحدة.
-- **محرك هجين (Hybrid Engine):** استخدام **Google Gemini** للتحليل العميق، مع محرك **NLP محلي** للعمل بدون إنترنت وبسرعة فائقة.
-- **دعم اللهجات العربية:** معالجة متقدمة للنصوص العربية والأرقام المشرقية.
+### AI-Driven Voice Invoicing
+- **Natural Language Processing:** Intelligent extraction of client names, amounts, service types, dates, and contact information from a single voice command.
+- **Hybrid Architecture:** Utilizes a high-performance system combining Google Gemini for deep semantic analysis and a local NLP engine for offline reliability.
+- **Arabic Language Optimization:** Advanced processing for various Arabic dialects and numeral systems to ensure high accuracy in data capture.
 
-### 💳 تتبع المدفوعات التلقائي (Automatic Real-time Tracking)
-- **تحديث لحظي:** بمجرد قيام العميل بالدفع عبر بوابة الويب، يتم تحديث حالة الفاتورة في تطبيق المستقل **تلقائياً** وتنتقل فوراً إلى قائمة "الفواتير المدفوعة".
-- **إشعارات فورية:** استلام إشعار لحظي (Alert) وتنبيه صوتي بمجرد وصول المبلغ، مما يلغي حاجة المستقل للمتابعة اليدوية.
-- **بوابة دفع ويب:** رابط مخصص لكل فاتورة يسهل على العملاء عملية الدفع من أي مكان.
+### Automatic Real-time Payment Tracking
+- **Instant Synchronization:** The system automatically updates the status of invoices in real-time as soon as a payment is confirmed via the integrated web payment gateway.
+- **Automated Workflow:** Invoices are dynamically transitioned to the "Paid" status upon transaction completion, triggered via Firebase Realtime Database.
+- **Immediate Notifications:** Users receive instant system alerts and auditory confirmation upon successful receipt of payments.
 
-### 🔐 الأمان والخصوصية (Security)
-- **دخول بالبصمة:** تأمين الوصول للبيانات المالية باستخدام **Biometric Authentication**.
-- **نسخ احتياطي سحابي:** حفظ جميع الفواتير والبيانات بشكل آمن على Firebase.
+### Security and Data Integrity
+- **Biometric Authentication:** Secure access to financial records via fingerprint and biometric validation.
+- **Cloud-Based Resilience:** All financial data and invoice records are securely synchronized and backed up using Firebase infrastructure.
 
-### 📊 إحصائيات متقدمة (Analytics)
-- لوحة تحكم تعرض الرصيد الإجمالي، الدخل، والمصروفات برسوم بيانية تفاعلية (Pie Charts & Line Charts).
-
----
-
-## 🛠️ التقنيات المستخدمة (Tech Stack)
-- **Frontend:** Flutter (Dart)
-- **Backend:** Firebase (Auth, Database, Hosting)
-- **AI/ML:** Google Generative AI (Gemini 2.0 Flash) & Custom Regex NLP
-- **Notifications:** Awesome Notifications & Local Notifications
-- **Reporting:** PDF Generation & Printing Support
+### Financial Analytics
+- **Executive Dashboard:** Comprehensive visualization of total balance, income, and expenditures through interactive charts and analytics modules.
 
 ---
 
-## 🚀 كيف تبدأ (Getting Started)
+## Technology Stack
+- **Framework:** Flutter (Dart)
+- **Backend Services:** Firebase (Authentication, Realtime Database, Hosting)
+- **Artificial Intelligence:** Google Generative AI (Gemini 2.0 Flash) & Custom Local NLP
+- **Notification Systems:** Awesome Notifications & Flutter Local Notifications
+- **Document Services:** PDF Generation & Printing Integration
 
-1. **تحميل المشروع:**
+---
+
+## Getting Started
+
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/GhofranAl-shahri/monjez-_fin-_app.git
    ```
-2. **تثبيت المكتبات:**
+2. **Install Dependencies:**
    ```bash
    flutter pub get
    ```
-3. **إعداد Firebase:** قم بإنشاء مشروع Firebase وأضف ملف `google-services.json` لمجلد الأندرويد.
-4. **تشغيل التطبيق:**
+3. **Configuration:** Ensure the `google-services.json` file is correctly placed in the `android/app` directory.
+4. **Execution:**
    ```bash
    flutter run
    ```
 
 ---
 
-## 📸 لقطات من التطبيق
-*(يمكنكِ إضافة صور واجهات التطبيق هنا لاحقاً)*
+## Application Screenshots
+*(Include high-resolution interface screenshots here)*
 
 ---
 
-## 🤝 المساهمة
-إذا كنت ترغب في المساهمة في تطوير هذا المشروع، يسعدنا استقبال مقترحاتك عبر الـ Pull Requests!
+## Contributors
+This project was developed with dedication by:
+- Ghofran Al-shehari
+- Rehab Saber
+- Sondos Alkenai
+- Areej Aljofi
 
 ---
 
-**تم التطوير بكل ❤️ بواسطة [Ghofran Al-shahri]**
+**Developed by the Monjez Fin Team**

@@ -64,7 +64,7 @@ The application addresses the core challenges faced by freelancers in invoice ma
 ## Contributors
 This project was developed with dedication by:
 - Ghofran Al-shehari
-- Rehab Saber
+- Rehab Sabr
 - Sondos Alkenai
 - Areej Aljofi
 
